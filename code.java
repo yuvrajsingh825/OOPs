@@ -4,14 +4,12 @@ class Student {
     int age;
     String branch;
 
-    // Constructor
     Student(String n, int a, String b) {
         name = n;
         age = a;
         branch = b;
     }
 
-    // Method to display student details
     void displayInfo() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
